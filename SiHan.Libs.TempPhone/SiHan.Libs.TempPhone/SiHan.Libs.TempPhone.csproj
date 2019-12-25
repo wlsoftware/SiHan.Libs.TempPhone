@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Authors>ygfweb</Authors>
+    <Company>SiHan</Company>
+    <Description>c# 获取各网站的临时手机号</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/ygfweb/SiHan.Libs.TempPhone</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ygfweb/SiHan.Libs.TempPhone</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SiHan.Libs.Net" Version="3.0.1" />
+    <PackageReference Include="SiHan.Libs.Utils" Version="1.1.0" />
+  </ItemGroup>
+
+</Project>
